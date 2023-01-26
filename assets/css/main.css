@@ -1720,6 +1720,7 @@
 		.image.fit {
 			display: block;
 			width: 100%;
+			box-shadow: 0px 0px 3px 3px rgb(0 0 0 / 10%);
 		}
 
 		.image.featured {
@@ -1935,19 +1936,19 @@
 /* Item */
 
 	.item {
+		background-color: white;
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
 
 		.item header {
-			background: #fff;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 1.3em;
 			}
 				.item .tags {
 					background-color: #fff;
@@ -1956,13 +1957,14 @@
 				}
 
 				.item .tag {
+						background-color: #505050;
 				    border: 1px solid #ddd;
 				    display: inline-block;
 				    border-radius: 6px;
 				    line-height: 1;
 				    padding: 8px 10px;
 				    font-size: 11px;
-				    color: #aaa;
+				    color: #fff;
 				    text-transform: uppercase;
 				    margin: 2.5px 5px 2.5px 0;
 				}

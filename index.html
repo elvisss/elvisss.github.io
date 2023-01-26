@@ -1,411 +1,339 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Elvis Saavedra</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link href="favicon.png" rel="shortcut icon">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/sweetalert.css">
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Elvis Saavedra</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="favicon.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+          <h1 id="title">Elvis Saavedra</h1>
+          <p>Web Developer</p>
+        </div>
 
-		<!-- Header -->
-			<div id="header">
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link" class="skel-layers-ignoreHref"
+                ><span class="icon fa-home">Intro</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"
+                ><span class="icon fa-th">Portafolio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" id="about-link" class="skel-layers-ignoreHref"
+                ><span class="icon fa-user">Acerca de mí</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" id="contact-link" class="skel-layers-ignoreHref"
+                ><span class="icon fa-envelope">Contacto</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-				<div class="top">
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li>
+            <a target="_blank" href="https://github.com/elvisss" class="icon fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/elvis-saavedra-segura-0a281a85"
+              class="icon fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:elvis.saavedra.segura@gmail.com" class="icon fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Elvis Saavedra</h1>
-							<p>Full Stack Developer</p>
-						</div>
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2 class="alt">
+              Hola! Soy <strong>Elvis Saavedra</strong>,<br />
+              un <strong>Full-Stack</strong> Developer
+            </h2>
+            <p>
+              Especializado en la construcción de todo, <br />desde sitios de pequeñas empresas a
+              ricas aplicaciones web interactivas.
+            </p>
+          </header>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portafolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Acerca de mí</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contacto</span></a></li>
-							</ul>
-						</nav>
+          <footer>
+            <a href="#portfolio" class="button scrolly">Mi Portafolio</a>
+          </footer>
+        </div>
+      </section>
 
-				</div>
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <header>
+            <h2>Portafolio</h2>
+          </header>
 
-				<div class="bottom">
+          <div class="row">
+            <div class="4u 12u$(mobile)">
+              <article class="item">
+                <a target="_blank" href="http://www.craft.com.pe/" class="image fit"
+                  ><img src="images/pic21.jpg" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="http://www.craft.com.pe/">Craft</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">PHP</div>
+                  <div class="tag">WordPress</div>
+                </div>
+              </article>
+              <article class="item">
+                <img src="images/pic12.jpg" alt="" class="image fit" />
+                <header>
+                  <h3>Tempo</h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">ANGULARJS</div>
+                  <div class="tag">Bootstrap</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="https://craftimes.com/" class="image fit"
+                  ><img src="images/craftimes.jpg" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="https://craftimes.com/">Craftimes</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Angular</div>
+                  <div class="tag">TypeScript</div>
+                  <div class="tag">PayU</div>
+                </div>
+              </article>
+							<article class="item">
+                <img class="image fit" src="images/inviertefacilbcp.jpg" alt="" />
+                <header>
+                  <h3>InvierteFácilBCP</h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Angular</div>
+                  <div class="tag">TypeScript</div>
+                  <div class="tag">Semantic UI</div>
+                </div>
+              </article>
+            </div>
+            <div class="4u 12u$(mobile)">
+							<article class="item">
+                <a target="_blank" href="https://www.intralot.com.pe/p/" class="image fit"
+                  ><img src="images/pic22.jpg" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="https://www.intralot.com.pe/p/">Intralot</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">HTML / JSP</div>
+                  <div class="tag">CSS</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="http://www.sietesamurai.com/" class="image fit"
+                  ><img src="images/pic23.jpg" alt="" class="image fit"
+                /></a>
+                <header>
+                  <h3>
+                    <a target="_blank" href="http://www.sietesamurai.com/">Siete Samurai</a>
+                  </h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Angular</div>
+                  <div class="tag">TypeScript</div>
+                  <div class="tag">Vimeo</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="https://www.lapollateapuesto.pe/" class="image fit"
+                  ><img src="images/polla.jpg" alt="" class="image fit"
+                /></a>
+                <header>
+                  <h3>
+                    <a target="_blank" href="https://www.lapollateapuesto.pe/"
+                      >La Polla Te Apuesto</a
+                    >
+                  </h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Angular</div>
+                  <div class="tag">TypeScript</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="https://profound-puppy-273e99.netlify.app/#/dashboard" class="image fit"
+                  ><img src="images/fireview.png" alt="" class="image fit"
+                /></a>
+                <header>
+                  <h3>
+                    <a target="_blank" href="https://profound-puppy-273e99.netlify.app/#/dashboard"
+                      >FireView</a
+                    >
+                  </h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Vue</div>
+                  <div class="tag">Socket.IO</div>
+                  <div class="tag">Express</div>
+                  <div class="tag">MySQL</div>
+                </div>
+              </article>
+            </div>
+            <div class="4u$ 12u$(mobile)">
+              <article class="item">
+                <a target="_blank" href="http://www.danica.pe/" class="image fit"
+                  ><img src="images/pic19.png" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="http://www.danica.pe/">Dánica</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">HTML</div>
+                  <div class="tag">CSS</div>
+                  <div class="tag">PHP</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="https://aseguralohoy.com/" class="image fit"
+                  ><img src="images/pic17.jpg" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="https://aseguralohoy.com/">AsegúraloHoy</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Angular</div>
+                  <div class="tag">TypeScript</div>
+                  <div class="tag">Material</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="https://diablo3dp-vue3.netlify.app/" class="image fit"
+                  ><img src="images/diablo3-profile-finder.png" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="https://diablo3dp-vue3.netlify.app/">Diablo 3 Profile Finder</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Vue</div>
+                  <div class="tag">Element UI</div>
+                  <div class="tag">Battle.net API</div>
+                </div>
+              </article>
+              <article class="item">
+                <a target="_blank" href="https://www.taxact.com/" class="image fit"
+                  ><img src="images/taxact.png" alt=""
+                /></a>
+                <header>
+                  <h3><a target="_blank" href="https://www.taxact.com/">TaxAct</a></h3>
+                </header>
+                <div class="tags">
+                  <div class="tag">Vue</div>
+                  <div class="tag">Nuxt</div>
+                  <div class="tag">Express</div>
+                  <div class="tag">Contentful</div>
+                  <div class="tag">SQL Server</div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a target="_blank" href="https://twitter.com/Elvis_Saavedra" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a target="_blank" href="https://www.facebook.com/Elvis.Saavedra" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a target="_blank" href="https://github.com/elvisss" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a target="_blank" href="https://www.linkedin.com/in/elvis-saavedra-segura-0a281a85" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:contact@elvissaavedra.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h2>Acerca de Mí</h2>
+          </header>
 
-				</div>
+          <p>
+            Crear aplicaciones web desde la fase de análisis hasta la implementación es lo que
+            mejor hago.<br />Escribo en <b>JavaScript</b>, <b>CSS3</b>, <b>HTML5</b>,
+            <b>AngularJS</b>, <b>Angular (2/4/5/6)</b> por el lado del cliente, y escribo en
+            <b>PHP</b>, <b>Python</b> y <b>NodeJS</b> por el lado del servidor. También sé modelar
+            <b>Bases de Datos</b>, y puedo trabajar sobre <b>Windows</b>, <b>Mac</b> y
+            <b>Linux</b>. Manejo bien el sistema de control de versiones de <b>Git</b>,
+            <b>GitHub</b> y <b>BitBucket</b>. Automatización y mejora del flujo de trabajo con
+            <b>Gulp</b> y <b>Webpack</b>.
+          </p>
 
-			</div>
+          <p>
+            Como programador, escribo código que cumple con los estándares de la industria y las
+            mejores prácticas semánticas. Siempre busco tener el mejor balance entre calidad,
+            tiempo y funcionalidad de mis trabajos.<br />
+            Aprendo rápido y me gusta estar actualizado sobre las tecnologías de desarrollo con
+            las que trabajo.
+          </p>
+        </div>
+      </section>
 
-		<!-- Main -->
-			<div id="main">
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+          <header>
+            <h2>Contacto</h2>
+          </header>
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+          <p>
+            Si está interesado en mi trabajo, tiene una pregunta o simplemente quiere decir hola,
+            siéntese libre de ponerse en contacto:
+          </p>
 
-							<header>
-								<h2 class="alt">Hola! Soy <strong>Elvis Saavedra</strong>,<br /> un <strong>Full-Stack</strong> Developer</h2>
-								<p>Especializado en la construcción de todo, <br />desde sitios de pequeñas empresas a ricas aplicaciones web interactivas.</p>
-							</header>
+          <p>
+            <a href="mailto:elvis.saavedra.segura@gmail.com">elvis.saavedra.segura@gmail.com</a>
+          </p>
+        </div>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">Mi Portafolio</a>
-							</footer>
+        <br />
+        <i>"Lo más cercano a la magia, es la programación".</i>
+      </section>
+    </div>
 
-						</div>
-					</section>
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; 2023 by Elvis Saavedra</li>
+      </ul>
+    </div>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portafolio</h2>
-							</header>
-
-							<div class="row">
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a target="_blank" href="http://www.peruwayna.com/" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.peruwayna.com/">Perú Wayna</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-											<div class="tag">PHP</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="http://www.perueduca.pe/" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.perueduca.pe/">PerúEduca</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-										</div>
-									</article>
-									<article class="item">
-										<img src="images/pic15.jpg" alt="" class="image fit" />
-										<header>
-											<h3>Pentolum</h3>
-										</header>
-										<div class="tags">
-											<div class="tag">PYTHON</div>
-											<div class="tag">WEB SCRAPING</div>
-										</div>
-									</article>
-									<article class="item">
-										<img src="images/pic09.jpg" alt="" class="image fit" />
-										<header>
-											<h3>Swaggle</h3>
-										</header>
-										<div class="tags">
-											<div class="tag">PYTHON</div>
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-										</div>
-									</article>
-									<article class="item">
-										<img src="images/pic12.jpg" alt="" class="image fit" />
-										<header>
-											<h3>Tempo</h3>
-										</header>
-										<div class="tags">
-											<div class="tag">ANGULARJS</div>
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="http://www.craft.com.pe/" class="image fit"><img src="images/pic21.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.craft.com.pe/">Craft</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-											<div class="tag">PHP</div>
-										</div>
-									</article>
-									</article>
-									<article class="item">
-										<a target="_blank" href="https://craftimes.com/" class="image fit"><img src="images/craftimes.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="https://craftimes.com/">Craftimes</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">Angular 5</div>
-											<div class="tag">TypeScript</div>
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-										</div>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a target="_blank" href="http://www.seoperu.com/" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.seoperu.com/">Seo Perú</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-											<div class="tag">PHP</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="https://witlee.com/" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="https://witlee.com/">Witlee</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">ANGULARJS</div>
-											<div class="tag">PYTHON</div>
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="https://aseguralohoy.com/" class="image fit"><img src="images/pic17.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="https://aseguralohoy.com/">AsegúraloHoy</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">Angular2</div>
-											<div class="tag">TypeScript</div>
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="https://panel.aseguralohoy.com/" class="image fit"><img src="images/pic18.png" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="https://panel.aseguralohoy.com/">Millenium</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">TypeScript</div>
-											<div class="tag">Angular2</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="http://origamicowork.com/" class="image fit"><img src="images/pic20.jpg" alt="" class="image fit" /></a>
-										<header>
-											<h3><a target="_blank" href="http://origamicowork.com/">Origami</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-											<div class="tag">PHP</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="http://www.sietesamurai.com/" class="image fit"><img src="images/pic23.jpg" alt="" class="image fit" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.sietesamurai.com/">Siete Samurai</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">Angular4</div>
-											<div class="tag">TypeScript</div>
-											<div class="tag">Vimeo</div>
-										</div>
-									</article>
-									</article>
-									<article class="item">
-										<a target="_blank" href="https://lapolla.intralot.com.pe/" class="image fit"><img src="images/polla.jpg" alt="" class="image fit" /></a>
-										<header>
-											<h3><a target="_blank" href="https://lapolla.intralot.com.pe/">La Polla Te Apuesto</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">Angular5</div>
-											<div class="tag">TypeScript</div>
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-										</div>
-									</article>
-								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<img src="images/pic06.jpg" alt="" class="image fit" />
-										<header>
-											<h3>Vetted</h3>
-										</header>
-										<div class="tags">
-											<div class="tag">PYTHON</div>
-											<div class="tag">DJANGO</div>
-											<div class="tag">RESTFul API</div>
-										</div>
-									</article>
-									<article class="item">
-										<img src="images/pic07.jpg" alt="" class="image fit" />
-										<header>
-											<h3>Positive Intelligence</h3>
-										</header>
-										<div class="tags">
-											<div class="tag">ANGULARJS</div>
-											<div class="tag">NODEJS</div>
-											<div class="tag">EXPRESS</div>
-											<div class="tag">MYSQL</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="http://www.proinversion.gob.pe/apec" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.proinversion.gob.pe/apec">ProInversión</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-										</div>
-									</article>
-									<article class="item">
-										<img src="images/pic16.jpg" alt="" class="image fit" />
-										<header>
-											<h3>Dataluz</h3>
-										</header>
-										<div class="tags">
-											<div class="tag">PYTHON</div>
-											<div class="tag">WEB SCRAPING</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="http://www.danica.pe/" class="image fit"><img src="images/pic19.png" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="http://www.danica.pe/">Dánica</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-											<div class="tag">PHP</div>
-										</div>
-									</article>
-									<article class="item">
-										<a target="_blank" href="https://www.intralot.com.pe/p/" class="image fit"><img src="images/pic22.jpg" alt="" /></a>
-										<header>
-											<h3><a target="_blank" href="https://www.intralot.com.pe/p/">Intralot</a></h3>
-										</header>
-										<div class="tags">
-											<div class="tag">HTML / JSP</div>
-											<div class="tag">CSS</div>
-											<div class="tag">JS</div>
-										</div>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Acerca de Mí</h2>
-							</header>
-
-							<p>Crear aplicaciones web desde la fase de análisis hasta la implementación es lo que mejor hago.<br />Escribo en <b>JavaScript</b>, <b>CSS3</b>, <b>HTML5</b>, <b>AngularJS</b>, <b>Angular (2/4/5/6)</b> por el lado del cliente, y escribo en <b>PHP</b>, <b>Python</b> y <b>NodeJS</b> por el lado del servidor. También sé modelar <b>Bases de Datos</b>, y puedo trabajar sobre <b>Windows</b>, <b>Mac</b> y <b>Linux</b>. Manejo bien el sistema de control de versiones de <b>Git</b>, <b>GitHub</b> y <b>BitBucket</b>. Automatización y mejora del flujo de trabajo con <b>Gulp</b> y <b>Webpack</b>.</p>
-
-							<p>Como programador, escribo código que cumple con los estándares de la industria y las mejores prácticas semánticas. Siempre busco tener el mejor balance entre calidad, tiempo y funcionalidad de mis trabajos.<br />
-							Aprendo rápido y me gusta estar actualizado sobre las tecnologías de desarrollo con las que trabajo.</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contacto</h2>
-							</header>
-
-							<p>Si está interesado en mi trabajo, tiene una pregunta o simplemente quiere decir hola, siéntese libre de ponerse en contacto:</p>
-
-							<p><a href="mailto:elvis.saavedra.segura@gmail.com">elvis.saavedra.segura@gmail.com</a></p>
-
-						</div>
-
-						<br />
-						<i>"Lo más cercano a la magia, es la programación".</i>
-
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; 2018 by Elvis Saavedra</li>
-					</ul>
-
-			</div>
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/sweetalert.min.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-			<script type="text/javascript">
-
-				$(function(){
-					$("#contactform").submit(function(e){
-						e.preventDefault();
-						var $form = $(this);
-						var serializedData = $form.serialize();
-						$.post('mail.php', serializedData, function(res) {
-							$form.trigger("reset");
-							swal({
-							  title: "Gracias!",
-							  text: "Mensaje enviado satisfactoriamente!",
-							  type: "success",
-							  confirmButtonText: "Ok"
-							});
-						})
-						.fail(function(error) {
-							swal({
-							  title: "Oops!",
-							  text: "Ah ocurrido un error! Intenta enviar un mensaje directamente aquí <a href='mailto:contact@elvissaavedra.com'>contact@elvissaavedra.com</a>",
-							  type: "error",
-							  confirmButtonText: "Ok",
-							  html: true
-							});
-						})
-					});
-				});
-			</script>
-
-	</body>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
