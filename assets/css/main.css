@@ -2179,6 +2179,10 @@
 				color: rgba(255, 255, 255, 0.75);
 			}
 
+			#main > section.relative {
+				position: relative;
+			}
+
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
 				}
@@ -2579,4 +2583,27 @@
 					margin-top: 0;
 				}
 
+	}
+
+	/* Languages */
+	#main > section #languages {
+		background-color: #000;
+		position: absolute;
+		top: 25px;
+		right: 35px;
+		padding: 0 15px;
+		line-height: 34px;
+		box-shadow: 0 0 3px 1px #fff;
+	}
+
+	#main > section #languages a {
+		color: #fff;
+		cursor: pointer;
+		border: none;
+		font-weight: bold;
+	}
+
+	#main > section #languages .lang-active {
+		color: #898989;
+		cursor: default;
 	}
